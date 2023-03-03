@@ -16,6 +16,8 @@ public class CastingPrimitive {
      * @return the int form of d.
      */
     public int castToInt(double d){
-        return 0;
+        int i = (int) d; //passes both tests
+        //int i = (int) Math.round(d); // only passes the first test
+        return i;
     }
 }
